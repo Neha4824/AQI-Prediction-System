@@ -68,24 +68,3 @@ The application uses the following AQI category ranges:
 | 201–300 | Poor |
 | 301–400 | Very Poor |
 | Above 400 | Severe |
-
-## Project Architecture
-User
-  │
-  ▼
-Netlify Frontend
-HTML + CSS + JavaScript
-  │
-  ▼
-Render Backend
-Flask API
-  │
-  ▼
-Random Forest Model
-aqi_prediction_model.pkl
-  │
-  ▼
-Predicted AQI and Category
-  │
-  ▼
-Result displayed on the website
